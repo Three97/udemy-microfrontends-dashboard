@@ -37,8 +37,22 @@ For this project, it is hosted here https://d107z2cii32a58.cloudfront.net
 ## Corrections
 
 * add a region to the aws cli commands in each of the `.yml` files in order for them to work properly.
+  * for me, that was `--region us-east-1`
 * add a prefix `/` to `devServer.historyApiFallback.index` property for `devConfig` in each of the applications (container, marketing, auth, dashboard). This was particularly important for the auth project as it would not work without it. The other subapps didn't seem to matter if it was there or not, so I added it to all of them.
 * there are console errors when running the dashboard project in development mode. The error is related to `chart.js/auto` but when deployed to S3, it seems to work fine. I suspect it has something to do with what npm packages have been installed globally on my development machine.
+
+## Resources
+
+| Description | URL |
+|-------------|-----|
+| Udemy course | https://www.udemy.com/course/microfrontend-course/ |
+| Webpack | https://webpack.js.org/ |
+| Webpack Module Federation | https://webpack.js.org/concepts/module-federation/ |
+| Stephen Grider YouTube | https://www.youtube.com/channel/UCQCaS3atWyNHEy5PkDXdpNg |
+| Stephen Grider GitHub | https://github.com/StephenGrider |
+| Stephen Grider Udemy Courses | https://www.udemy.com/user/sgslo/ |
+| React | https://reactjs.org/ |
+| Vue | https://vuejs.org/ |  
 
 ## Final Thoughts
 
