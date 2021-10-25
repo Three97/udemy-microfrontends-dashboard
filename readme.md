@@ -32,7 +32,7 @@ Secrets configured in GitHub and are used in the deployment scripts under the `.
 | AWS_SECRET_ACCESS_KEY | value used for accessing AWS artifacts |
 | AWS_DISTRIBUTION_ID | CloudFront™ distribution ID |
 
-For this project, it is hosted here https://d107z2cii32a58.cloudfront.net
+This project is hosted here https://d107z2cii32a58.cloudfront.net
 
 ## Corrections
 
