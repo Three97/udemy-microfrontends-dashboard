@@ -4,7 +4,7 @@ import { StylesProvider, createGenerateClassName } from '@material-ui/core/style
 import { createBrowserHistory } from 'history';
 
 import Progress from './components/Progress';
-import Header from './components/Header';
+import Header from './components/Header'; 
 
 const MarketingLazy = lazy(() => import('./components/MarketingApp'));
 const AuthLazy = lazy(() => import('./components/AuthApp'));
